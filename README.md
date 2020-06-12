@@ -1,4 +1,4 @@
-# Project Title
+# DSC160 Final Project Grp-15
 
 DSC160 Data Science and the Arts - Final Project - Generative Arts - Spring 2020
 
@@ -51,23 +51,19 @@ links to data
 - Generative model based on GANGogh that generates and classifies artwork by art movement. [From here](https://arxiv.org/pdf/1704.00028.pdf) originally and then modified to create the GANGogh.
 
 [Generative Methods]()
-- Example code to generate artworks. 
+- The TF model outputs images as it evolves. Our model is not converging properly at the moment...😢it is starting to create forms but nothing discernible.  
 
-Link each of these items to your .ipynb or .py files within this seection, and provide a brief explanation of what the code does. Reading this section we should have a sense of how to run your code.
+[//]: # (Link each of these items to your .ipynb or .py files within this seection, and provide a brief explanation of what the code does. Reading this section we should have a sense of how to run your code.)
 
 ## Results
 
 (30 points) 
 
-This section should summarize your results and will embed links to documentation to significant outputs. This should document both process and show artistic results. This can include figures, sound files, videos, bitmaps, as appropriate to your generative art idea. Each result should include a brief textual description, and all should be listed below: 
+[//]: # (This section should summarize your results and will embed links to documentation to significant outputs. This should document both process and show artistic results. This can include figures, sound files, videos, bitmaps, as appropriate to your generative art idea. Each result should include a brief textual description, and all should be listed below: - image files (`.jpg`, `.png` or whatever else is appropriate - audio files (`.wav`, `.mp3` - written text as `.pdf`)
 
-- image files (`.jpg`, `.png` or whatever else is appropriate)
-- audio files (`.wav`, `.mp3`)
-- written text as `.pdf`
+The images are still converging towards a real shape that is human-interpretable. Getting the GAN to works took much more work than we anticipated. There are a variety of minute technical errors which accumulate and result in huge delays. Whereas one would expect to simply download the repository, install the dependencies and run the code, it turns out that much can go wrong along the way. Formatting problems, deprecations, syntax, mismatch of versions, multiple references to single namespace, etc. However, we can start to notice some shape developping from our generator. Much like the article, we believe that part of the reason this set did not converge was due to the lack of data which was partly a result of time limitations.  We believe that using a much larger pool of paintings we could still return some interesting images in high quality. 
 
 ## Discussion
-
-(30 points, three to five paragraphs)
 
 The first paragraph should be a short summary describing your results.
 
@@ -86,14 +82,14 @@ Provide an account of individual members and their efforts/contributions to the 
 - Nathan Tsai: 
 - Jacob Benson: 
 - Hanbyul Ryu: 
-- Gabriel Zalles: 
+- Gabriel Zalles:
 
 ## Technical Notes and Dependencies
 
 Any implementation details or notes we need to repeat your work. 
 - Additional libraries you are using for this project.  
 
-TF, BeautifulSoup, etc.
+TF, BeautifulSoup, etc. all other libraries get imported by our code. As long as you install TF correctly it should be fine. [here is an example](https://www.pugetsystems.com/labs/hpc/The-Best-Way-to-Install-TensorFlow-with-GPU-Support-on-Windows-10-Without-Installing-CUDA-1187/)
 
 - Does this code require other pip packages, software, etc?
 
