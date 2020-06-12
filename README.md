@@ -72,7 +72,7 @@ The images are still converging towards a real shape that is human-interpretable
 
 ## Discussion
 
-After running into countless setbacks in the form of DataHub crashes, internet outages, and many Tensorflow errors; we were finally able to get an output from our GAN. Our initial plan was to be able to analyze different aspects of generated works by movement or genre. However, due to our setbacks we were only able to do ___.
+After running into countless setbacks in the form of DataHub crashes, internet outages, and many Tensorflow errors; we were finally able to get an output from our GAN. Our initial plan was to be able to analyze different aspects of generated works by movement or genre. However, due to our setbacks we were only able to do retrieve the final images shown in the results section, which while they have vaguely discernable shapes, do not quite yet look like paintings.
 
 This project can be considered culturally innovative as it deals with generating artwork in a similar style to artists that are renowned internationally for their talent. Through this project we are somehow learning from their style and creating another by using the data we have gathered. By doing so there could be a way to understand more about the different art styles and periods that were not evident by simply looking at the art pieces with the human eye. The possibility of being able to potentially compute the difference between the art styles could help reduce some ambiguity among them as well.
 
@@ -86,10 +86,10 @@ One limiting factor of this project was that the generation and download of the 
 
 Provide an account of individual members and their efforts/contributions to the specific tasks you accomplished.
 
-- Joseph Del Val:
+- Joseph Del Val: abstract, data scraping and processing, tweaking/edits of the WGAN, and final image generation
 - Nathan Tsai: abstract, scraping, discussion
 - Jacob Benson: abstract, presentation, data scraping and processing, discussion
-- Hanbyul Ryu: 
+- Hanbyul Ryu: presentation, discussion
 - Gabriel Zalles: presentation, discussion, wiki 
 
 ## Technical Notes and Dependencies
@@ -107,9 +107,10 @@ DataHub is recommended.
 
 No.
 
+The original structure of the files as they were run in Datahub may need to be replicated in order for the scripts to run correctly. Specifically, the GanGogh notebook and picstuff notebooks should be in the home directory. Data should be stored in a subfolder data/, and a ‘generated’ folder should be created as well.
+
 ## Reference
 
 All references to papers, techniques, previous work, repositories you used should be collected at the bottom:
-- Papers
 - [GANGogh Repository (Jones 2017)](https://github.com/rkjones4/GANGogh)
 - ["GANGogh: Creating Art with GANs" (Jones 2017)](https://towardsdatascience.com/gangogh-creating-art-with-gans-8d087d8f74a1)
