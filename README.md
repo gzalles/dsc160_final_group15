@@ -42,10 +42,10 @@ links to data
 (20 points)
 
 [Data Acquisition & Web Scraping Code]()
-- Uses BeautifulSoup4 to scrape WikiArt artworks by art movement.
+- Uses BeautifulSoup4 to scrape WikiArt artworks by art movement. Scaping the works of each artist should take about an hour, and is saved in a data folder.
 
 [Data Processing]()
-- Processes data...picStuff.py is used to batch process images from wikiart into 64x64 pixel format readily understood by TF.
+- picStuff.py is used to batch process images from wikiart into 64x64 pixel format readily understood by TF. This process is a bit quicker than the data acquisition and saves the new processed images into a folder called small_imagesdata.
 
 [Improved WGAN]()
 - Generative model based on GANGogh that generates and classifies artwork by art movement. [From here](https://arxiv.org/pdf/1704.00028.pdf) originally and then modified to create the GANGogh.
