@@ -1,4 +1,4 @@
-# DSC160 Final Project Group-15
+# DSC160 Final Project Grp-15
 
 DSC160 Data Science and the Arts - Final Project - Generative Arts - Spring 2020
 
@@ -21,13 +21,13 @@ Inspired by GANGogh: https://github.com/rkjones4/GANGogh
 
 ## Data and Model
 
-(10 points) 
+Data was 4k images from oeuvres of Van Gogh, Picasso and Dali. From WikiArt scrapped with BeautifulSoup. Images processed then used to train Generative Adversarial Network.
 
-In the final submission, this section will describe both the data you use for this project and any pre-existing models/neural nets. For each you should provide the name, a textual description, and a link. If there is a paper (for neural net) link that as well.
 ### Neural Net
 The model is an improved Wasserstein GAN (WGAN) model based on GANGogh model (Jones 2017).
   - [GANGogh by K. Jones 2017](https://github.com/rkjones4/GANGogh)
   - ["GANGogh: Creating Art with GANs"](https://towardsdatascience.com/gangogh-creating-art-with-gans-8d087d8f74a1)
+  - [the original paper](https://arxiv.org/pdf/1704.00028.pdf)
 
 ### Training Data
 The training data consists of images of artworks by art movement, scraped from WikiArt. The art movements include: Post-Impressionism, Realism (Van Gogh); Surrealism (Dali); and Cubism, Expresionism, and Surrealism (Picasso).
@@ -53,15 +53,15 @@ links to data
 [Generative Methods]()
 - The TF model outputs images as it evolves. Our model is not converging properly at the moment...😢it is starting to create forms but nothing discernible.  
 
-[//]: # (Link each of these items to your .ipynb or .py files within this seection, and provide a brief explanation of what the code does. Reading this section we should have a sense of how to run your code.)
-
 ## Results
 
 (30 points) 
 
-![Image of Yaktocat](results/dali_1.png)
-![Image of Yaktocat](results/picasso_1.png)
-![Image of Yaktocat](results/van_gogh_1.png)
+![DALI PAINTING](results/dali_1.png) DALI 
+![PICASSO PAINTING](results/picasso_1.png) PICASSO
+![VAN GOGH PAINTING](results/van_gogh_1.png) VG (Van Gogh)
+
+Picassos paintings, in contrast to the other ones look geometric. Dali's and VG vaguely resemble people. This might have to do with the number of portraits that each painter has in their collection. 
 
 The images are still converging towards a real shape that is human-interpretable. Getting the GAN to works took much more work than we anticipated. There are a variety of minute technical errors which accumulate and result in huge delays. Whereas one would expect to simply download the repository, install the dependencies and run the code, it turns out that much can go wrong along the way. Formatting problems, deprecations, syntax, mismatch of versions, multiple references to single namespace, etc. However, we can start to notice some shape developping from our generator. Much like the article, we believe that part of the reason this set did not converge was due to the lack of data which was partly a result of time limitations.  We believe that using a much larger pool of paintings we could still return some interesting images in high quality. 
 
@@ -81,9 +81,9 @@ One limiting factor of this project was that the generation and download of the 
 
 Provide an account of individual members and their efforts/contributions to the specific tasks you accomplished.
 
-- Joseph Del Val:
-- Nathan Tsai: abstract, scraping, discussion
-- Jacob Benson: abstract, presentation, data scraping and processing, discussion
+- Joseph Del Val: 
+- Nathan Tsai: 
+- Jacob Benson: 
 - Hanbyul Ryu: 
 - Gabriel Zalles:
 
