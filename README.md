@@ -59,7 +59,9 @@ links to data
 
 (30 points) 
 
-[//]: # (This section should summarize your results and will embed links to documentation to significant outputs. This should document both process and show artistic results. This can include figures, sound files, videos, bitmaps, as appropriate to your generative art idea. Each result should include a brief textual description, and all should be listed below: - image files (`.jpg`, `.png` or whatever else is appropriate - audio files (`.wav`, `.mp3` - written text as `.pdf`)
+![Image of Yaktocat](results/dali_1.png)
+![Image of Yaktocat](results/picasso_1.png)
+![Image of Yaktocat](results/van_gogh_1.png)
 
 The images are still converging towards a real shape that is human-interpretable. Getting the GAN to works took much more work than we anticipated. There are a variety of minute technical errors which accumulate and result in huge delays. Whereas one would expect to simply download the repository, install the dependencies and run the code, it turns out that much can go wrong along the way. Formatting problems, deprecations, syntax, mismatch of versions, multiple references to single namespace, etc. However, we can start to notice some shape developping from our generator. Much like the article, we believe that part of the reason this set did not converge was due to the lack of data which was partly a result of time limitations.  We believe that using a much larger pool of paintings we could still return some interesting images in high quality. 
 
