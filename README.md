@@ -81,9 +81,9 @@ One limiting factor of this project was that the generation and download of the 
 
 Provide an account of individual members and their efforts/contributions to the specific tasks you accomplished.
 
-- Joseph Del Val: 
-- Nathan Tsai: 
-- Jacob Benson: 
+- Joseph Del Val:
+- Nathan Tsai:
+- Jacob Benson: abstract, presentation, data scraping and processing, discussion
 - Hanbyul Ryu: 
 - Gabriel Zalles:
 
