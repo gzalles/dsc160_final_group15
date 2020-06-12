@@ -23,6 +23,7 @@ Inspired by GANGogh: https://github.com/rkjones4/GANGogh
 
 (10 points) 
 
+In the final submission, this section will describe both the data you use for this project and any pre-existing models/neural nets. For each you should provide the name, a textual description, and a link. If there is a paper (for neural net) link that as well.
 ### Neural Net
 The model is an improved Wasserstein GAN (WGAN) model based on GANGogh model (Jones 2017).
   - [GANGogh by K. Jones 2017](https://github.com/rkjones4/GANGogh)
@@ -87,7 +88,7 @@ Provide an account of individual members and their efforts/contributions to the 
 - Nathan Tsai: abstract, scraping, discussion
 - Jacob Benson: abstract, presentation, data scraping and processing, discussion
 - Hanbyul Ryu: 
-- Gabriel Zalles:
+- Gabriel Zalles: presentation, discussion, wiki 
 
 ## Technical Notes and Dependencies
 
