@@ -53,6 +53,8 @@ links to data
 [Generative Methods]()
 - The TF model outputs images as it evolves. Our model is not converging properly at the moment...😢it is starting to create forms but nothing discernible.  
 
+The original structure of the files as they were run in Datahub may need to be replicated in order for the scripts to run correctly. Specifically, the GanGogh notebook and picstuff notebooks should be in the home directory. Data should be stored in a subfolder data/, and a ‘generated’ folder should be created as well.
+
 ## Results
 
 (30 points) 
