@@ -33,9 +33,9 @@ The model is an improved Wasserstein GAN (WGAN) model based on GANGogh model (Jo
 The training data consists of images of artworks by art movement, scraped from WikiArt. The art movements include: Post-Impressionism, Realism (Van Gogh); Surrealism (Dali); and Cubism, Expresionism, and Surrealism (Picasso).
 
 links to data
-- [Van Gogh](https://www.wikiart.org/en/vincent-van-gogh)
-- [Dali](https://www.wikiart.org/en/salvador-dali)
-- [Picasso](https://www.wikiart.org/en/pablo-picasso)
+- [Van Gogh](https://www.wikiart.org/en/vincent-van-gogh/all-works/text-list)
+- [Dali](https://www.wikiart.org/en/salvador-dali/all-works/text-list)
+- [Picasso](https://www.wikiart.org/en/pablo-picasso/all-works/text-list)
 
 ## Code
 
@@ -68,7 +68,7 @@ The original structure of the files as they were run in Datahub may need to be r
 ### Van Gogh
 ![VanGogh](results/van_gogh_1.png)
 
-The images are still converging towards a real shape that is human-interpretable. Getting the GAN to works took much more work than we anticipated. There are a variety of minute technical errors which accumulate and result in huge delays. Whereas one would expect to simply download the repository, install the dependencies and run the code, it turns out that much can go wrong along the way. Formatting problems, deprecations, syntax, mismatch of versions, multiple references to single namespace, etc. However, we can start to notice some shape developping from our generator. Much like the article, we believe that part of the reason this set did not converge was due to the lack of data which was partly a result of time limitations.  We believe that using a much larger pool of paintings we could still return some interesting images in high quality. 
+The images are still converging towards a real shape that is human-interpretable. Getting the GAN to works took much more work than we anticipated. There are a variety of minute technical errors which accumulate and result in huge delays. Whereas one would expect to simply download the repository, install the dependencies and run the code, it turns out that much can go wrong along the way. Formatting problems, deprecations, syntax, mismatch of versions, multiple references to single namespace, etc. However, we can start to notice some shape developping from our generator. Much like the article, we believe that part of the reason this set did not converge was due to the lack of data which was partly a result of time limitations.  We believe that using a much larger pool of paintings we could still return some interesting images in high quality. As for what we can make of our results, the Picasso image seems to be geometric while the Van Gogh and Dali images look vaguely humanoid.
 
 ## Discussion
 
