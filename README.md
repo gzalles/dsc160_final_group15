@@ -1,4 +1,4 @@
-# Project Title
+# DSC160 Final Project Grp-15
 
 DSC160 Data Science and the Arts - Final Project - Generative Arts - Spring 2020
 
@@ -51,30 +51,28 @@ links to data
 - Generative model based on GANGogh that generates and classifies artwork by art movement. [From here](https://arxiv.org/pdf/1704.00028.pdf) originally and then modified to create the GANGogh.
 
 [Generative Methods]()
-- Example code to generate artworks. 
+- The TF model outputs images as it evolves. Our model is not converging properly at the moment...😢it is starting to create forms but nothing discernible.  
 
-Link each of these items to your .ipynb or .py files within this seection, and provide a brief explanation of what the code does. Reading this section we should have a sense of how to run your code.
+[//]: # (Link each of these items to your .ipynb or .py files within this seection, and provide a brief explanation of what the code does. Reading this section we should have a sense of how to run your code.)
 
 ## Results
 
 (30 points) 
 
-This section should summarize your results and will embed links to documentation to significant outputs. This should document both process and show artistic results. This can include figures, sound files, videos, bitmaps, as appropriate to your generative art idea. Each result should include a brief textual description, and all should be listed below: 
+[//]: # (This section should summarize your results and will embed links to documentation to significant outputs. This should document both process and show artistic results. This can include figures, sound files, videos, bitmaps, as appropriate to your generative art idea. Each result should include a brief textual description, and all should be listed below: - image files (`.jpg`, `.png` or whatever else is appropriate - audio files (`.wav`, `.mp3` - written text as `.pdf`)
 
-- image files (`.jpg`, `.png` or whatever else is appropriate)
-- audio files (`.wav`, `.mp3`)
-- written text as `.pdf`
+The images are still converging towards a real shape that is human-interpretable. Getting the GAN to works took much more work than we anticipated. There are a variety of minute technical errors which accumulate and result in huge delays. Whereas one would expect to simply download the repository, install the dependencies and run the code, it turns out that much can go wrong along the way. Formatting problems, deprecations, syntax, mismatch of versions, multiple references to single namespace, etc. However, we can start to notice some shape developping from our generator. Much like the article, we believe that part of the reason this set did not converge was due to the lack of data which was partly a result of time limitations.  We believe that using a much larger pool of paintings we could still return some interesting images in high quality. 
 
 ## Discussion
 
 The first paragraph should be a short summary describing your results.
-This project can be considered culturally innovative as it deals with generating artwork in a similar style to artists that are renowned internationally for their talent. Through this project we are somehow learning from their style and creating another by using the data we have gathered. By doing so there could be a way to understand more about the different art styles and periods that were not evident by simply looking at the art pieces with the human eye. The possibility of being able to potentially compute the difference between the art styles could help reduce some ambiguity among them as well.
 
-Our generative computational approach has a significant difference from traditional art production in that we are actively encouraging the process of 'replication' in our process. While the generated art will in no way be a copy of the artworks, the process involved in generating it is based off of the numerous data gathered by scraping already existent artworks. This could potentially be seen as plagiarism if done by another human being. In addition, the development of how the artwork is created differs as well. While the generative model starts with a basic background while adding the details from a seemingly dark solid space, traditional art production usually starts with some kind of sketch and/or guideline that is representative of the final product.
-
-We aimed to find significant distinctions between generated artworks based on a handful of different notable artists. We wanted to be able to show certain features that would describe certain movements or periods of art. Also, being able to generate art that is in-distinguishable from works by the original artist’s creates a kind of discredibility towards future artworks. Considering we can now create beautiful artworks using computational methods, how are we supposed to judge new art that doesn’t hold up to new standards created by this era of generated art?
-
-One limiting factor of this project was that the generation and download of the generated art took a significant amount of time, especially when trying to take multiple different things into account. Potentially this project could be developed further by looking into how to compress the data to maybe take up less space. This problem could also be avoided by adding resources or using a computer with higher storage. Another way to develop this project further would be to develop a system where the generative model could also store the computational and algorithmic differences among the different art styles that it had to analyze. In a similar development, it would also be interesting to see what art can be generated by combining multiple different art styles and intertwining the styles together to create one artwork.
+The subsequent paragraphs could address questions including:
+- Why is this culturally innovative?
+- How does your generative computational approach differ from traditional art/music/cultural production? 
+- How do your results relate to broader social, cultural, economic political, etc., issues? 
+- What are the ethical concerns for this form of generative art? 
+- In what future directions could you expand this work?
 
 ## Team Roles
 
@@ -84,15 +82,22 @@ Provide an account of individual members and their efforts/contributions to the 
 - Nathan Tsai: 
 - Jacob Benson: 
 - Hanbyul Ryu: 
-- Gabriel Zalles: 
+- Gabriel Zalles:
 
 ## Technical Notes and Dependencies
 
-A few members had a lot of trouble with Tensorflow and one fix we found was to use version 1.15. The data takes hours to download and the GAN a similar amount of time to run.
+Any implementation details or notes we need to repeat your work. 
+- Additional libraries you are using for this project.  
 
-Tensorflow, BeautifulSoup, and Skimage were used along with a few built-in packages (numpy, os, etc.)
+TF, BeautifulSoup, etc. all other libraries get imported by our code. As long as you install TF correctly it should be fine. [here is an example](https://www.pugetsystems.com/labs/hpc/The-Best-Way-to-Install-TensorFlow-with-GPU-Support-on-Windows-10-Without-Installing-CUDA-1187/)
 
-DataHub is recommended. No other platforms were used.
+- Does this code require other pip packages, software, etc?
+
+DataHub is recommended. 
+
+- Does this code need to run on some other (non-datahub) platform? (CoLab, etc.)
+
+No.
 
 ## Reference
 
