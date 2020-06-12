@@ -45,13 +45,13 @@ links to data
 - Uses ____ and BeautifulSoup4 to scrape WikiArt artworks by art movement.
 
 [Data Processing]()
-- Processes data...
+- Processes data...picStuff.py is used to batch process images from wikiart into 64x64 pixel format readily understood by TF.
 
 [Improved WGAN]()
-- Generative model based on GANGogh that generates and classifies artwork by art movement.
+- Generative model based on GANGogh that generates and classifies artwork by art movement. [From here](https://arxiv.org/pdf/1704.00028.pdf) originally and then modified to create the GANGogh.
 
 [Generative Methods]()
-- Example code to generate artworks.
+- Example code to generate artworks. 
 
 Link each of these items to your .ipynb or .py files within this seection, and provide a brief explanation of what the code does. Reading this section we should have a sense of how to run your code.
 
@@ -91,9 +91,17 @@ Provide an account of individual members and their efforts/contributions to the 
 ## Technical Notes and Dependencies
 
 Any implementation details or notes we need to repeat your work. 
-- Additional libraries you are using for this project
+- Additional libraries you are using for this project.  
+
+TF, BeautifulSoup, etc.
+
 - Does this code require other pip packages, software, etc?
+
+DataHub is recommended. 
+
 - Does this code need to run on some other (non-datahub) platform? (CoLab, etc.)
+
+No.
 
 ## Reference
 
