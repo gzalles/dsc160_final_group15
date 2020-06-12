@@ -33,10 +33,9 @@ The model is an improved Wasserstein GAN (WGAN) model based on GANGogh model (Jo
 The training data consists of images of artworks by art movement, scraped from WikiArt. The art movements include: Post-Impressionism, Realism (Van Gogh); Surrealism (Dali); and Cubism, Expresionism, and Surrealism (Picasso).
 
 links to data
-[https://www.wikiart.org/en/vincent-van-gogh]
-[https://www.wikiart.org/en/salvador-dali]
-[https://www.wikiart.org/en/pablo-picasso]. 
-- [picasso](https://www.wikiart.org/en/pablo-picasso).
+- [Van Gogh](https://www.wikiart.org/en/vincent-van-gogh)
+- [Dali](https://www.wikiart.org/en/salvador-dali)
+- [Picasso](https://www.wikiart.org/en/pablo-picasso)
 
 ## Code
 
